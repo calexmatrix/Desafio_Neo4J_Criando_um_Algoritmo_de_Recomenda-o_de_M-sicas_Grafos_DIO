@@ -16,7 +16,7 @@ A solução abrange:
 Abaixo, o diagrama esquemático da solução proposta:
 
 ![Esquema do Grafo](Projeto_Criando_um_Algoritmo_de_Recomendação.png)
-*(Certifique-se de que a imagem esteja na mesma pasta do README ou ajuste o caminho)*
+
 
 ### Nós (Nodes)
 * **Usuario:** O ouvinte da plataforma.
@@ -141,7 +141,7 @@ CREATE (uMarcos)-[:CURTIU]->(mWeWill)
 // 6. Grafo Social (Amizades conectam os gostos)
 CREATE (uCarlos)-[:AMIGO_DE]->(uPedro)
 CREATE (uPedro)-[:AMIGO_DE]->(uAna) // Pedro conecta o Rockeiro Carlos à Popzeira Ana
-```
 CREATE (uAna)-[:AMIGO_DE]->(uLuana)
 CREATE (uJulia)-[:AMIGO_DE]->(uMarcos)
 CREATE (uMarcos)-[:AMIGO_DE]->(uCarlos) // Fecha um ciclo social
+```
